@@ -5,7 +5,6 @@ $(function () {
     once: true,
     offset: -50
   });
-  
   $(".scroll-to").click(function (e) {
     e.preventDefault();
     $('html, body').animate({
@@ -25,4 +24,4 @@ $(function () {
     $('.results-card').removeClass('active').filter(sel).addClass('active');
     $('.results__trigger').removeClass('active').filter(sel).addClass('active');
   });
-})
+});
